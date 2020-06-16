@@ -1,7 +1,7 @@
 // from data.js
 var tableData = data;
 
-// Default global variable to specfic date
+// Default global variables
 var inputDate = "1/11/2010";
 var inputCity = "";
 var inputState = "";
@@ -56,27 +56,31 @@ button.on("click", function() {
 
     var filteredData = tableData;
 
-    // Use D3 filter function to get new dataset
+    // Use D3 filter function to get new dataset with Date filter
     if( inputDate != '' )
     {
         var filteredData = filteredData.filter(filterDate);
     }
 
+    // Use D3 filter function to get new dataset with City filter
     if( inputCity != '' )
     {
         var filteredData = filteredData.filter(filterCity);
     }
 
+    // Use D3 filter function to get new dataset with State filter
     if( inputState != '' )
     {
         var filteredData = filteredData.filter(filterState);
     }
 
+    // Use D3 filter function to get new dataset with Country filter
     if( inputCountry != '' )
     {
         var filteredData = filteredData.filter(filterCountry);
     }
 
+    // Use D3 filter function to get new dataset with Shape filter
     if( inputShape != '' )
     {
         var filteredData = filteredData.filter(filterShape);
