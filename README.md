@@ -10,35 +10,33 @@ That's why we are hiring you. We need you to write code that will create a table
 
 You can handle this... right? The planet Earth needs to know what we have found!
 
-## Your Task
+## Task
 
-### Before You Begin
+### Preparation
 
-1. Create a new repository for this project called `javascript-challenge`. **Do not add this homework to an existing repository**.
+1. Created a new repository for this project called `javascript-challenge`.
 
-2. Clone the new repository to your computer.
+2. Clone the new repository.
 
-3. Inside your local git repository, create a directory for the Javascript challenge. Use the folder names to correspond to the challenges: **UFO-level-1** and **UFO-level-2**.
+3. Creates directories for the Javascript challenge. Used the folder names to correspond to the challenges: **UFO-level-1** and **UFO-level-2**.
 
-4. Add your **html** files to this folder as well as your static folder containing your javascript. This will be the main script to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
+4. Added **html** files to this folder as well as your static folder containing javascript. This will be the main script to run for analysis.
 
 ### Level 1: Automatic Table and Date Search (Required)
 
-* Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided (we recommend building your own custom page!).
+* Created a basic HTML web page or using the [index.html](StarterCode/index.html). 
 
-* Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
+* Using the UFO dataset provided in the form of an array of JavaScript objects, code was written to append to a table and then adds new rows of data for each UFO sighting.
 
-  * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
+* Columns for `date/time`, `city`, `state`, `country`, `shape`, and `comment` were added.
 
-* Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
+* A date form in the HTML document was added and JavaScript code implemented that listens for events and search through the `date/time` column to find rows that match user input.
 
 ### Level 2: Multiple Search Categories (Optional)
 
-* Complete all of Level 1 criteria.
+* Completed all of Level 1 criteria.
 
-* Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+* Used multiple `input` tags, wrote JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
 
   1. `date/time`
   2. `city`
